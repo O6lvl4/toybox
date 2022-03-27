@@ -2,17 +2,6 @@ FROM gitpod/workspace-full
 
 USER gitpod
 
-# Flutter
-RUN brew tap leoafarias/fvm
-RUN brew install fvm
-RUN dart pub global activate fvm
-RUN fvm install 2.10.3
-RUN fvm use 2.10.3
-RUN fvm global 2.10.3
-
-# React Native
-RUN npm install -g expo-cli
-
 # Install custom tools, runtime, etc. using apt-get
 # For example, the command below would install "bastet" - a command line tetris clone:
 #
