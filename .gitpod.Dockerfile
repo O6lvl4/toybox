@@ -10,6 +10,9 @@ RUN fvm install 2.10.3
 RUN fvm use 2.10.3
 RUN fvm global 2.10.3
 
+# React Native
+RUN yarn global add  react-native
+
 # Install custom tools, runtime, etc. using apt-get
 # For example, the command below would install "bastet" - a command line tetris clone:
 #
