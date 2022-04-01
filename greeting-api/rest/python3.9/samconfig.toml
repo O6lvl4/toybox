@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "hello-world-python-api"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-195rj4614lsr"
+s3_prefix = "hello-world-python-api"
+region = "ap-northeast-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
